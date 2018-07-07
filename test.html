@@ -1,0 +1,16 @@
+﻿<input type="text" id="test1" >时间范围选择器</input>
+<input type="text" id="test2">时间选择器</input>
+<script src="laydate/laydate.js"></script> <!-- 改成你的路径 -->
+<script>
+
+laydate.render({
+  elem: '#test1'//指定元素
+  ,type:'time' 
+  ,range:true
+});
+
+laydate.render({
+  elem: '#test2' //指定元素
+  ,type:'datetime' 
+});
+</script>
